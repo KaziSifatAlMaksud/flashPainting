@@ -1618,6 +1618,31 @@ section,
   transform: translateY(-2px);
 }
 
+.herobutton .btn.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.herobutton .btn.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  transform: translateY(-2px);
+}
+
+.herobutton .btn.btn-outline {
+  border: 2px solid color-mix(in srgb, #fff, transparent 70%);
+  color: #fff;
+}
+
+.herobutton .btn.btn-outline:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+  transform: translateY(-2px);
+}
+
+
 .call-to-action-2 .cta-buttons .btn.btn-outline {
   border: 2px solid color-mix(in srgb, var(--accent-color), transparent 70%);
   color: var(--accent-color);
