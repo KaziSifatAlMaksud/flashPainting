@@ -48,81 +48,66 @@
   </head>
 
   <body class="about-page">
-    <header id="header" class="header position-relative">
-      <div class="container-fluid container-xl position-relative">
-        <div class="top-row d-flex align-items-center justify-content-between">
-          <a href="index.html" class="logo d-flex align-items-end">
-            <img src="assets/img/logo/logo.png" alt="" />
-          </a>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <img src="assets/img/logo/logo.png" alt="" />
+        </a>
 
-          <div class="d-flex align-items-center">
-            <div class="social-links">
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="twitter"><i class="bi bi-youtube"></i></a>
-            </div>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-            <form class="search-form ms-4">
-              <input type="text" placeholder="Search..." class="form-control" />
-              <button type="submit" class="btn">
-                <i class="bi bi-search"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="nav-wrap">
-        <div class="container d-flex justify-content-center position-relative">
-          <nav id="navmenu" class="navmenu">
-            <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="category.html">Category</a></li>
-              <li><a href="category.html">Services</a></li>
-              <li><a href="category.html">Projects</a></li>
-
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-          </nav>
-        </div>
+        <a class="btn-getstarted" href="index.html#about">Get a Quote</a>
       </div>
     </header>
 
     <main class="main">
       <!-- Page Title -->
+      <div>
+        <div
+          class="page-title py-5"
+          style="
+            background-image: url('assets/img/flash/contact\ us.jpg');
+            background-size: cover;
+            background-position: center top;
+            padding: 150px 0px !important;
+          "
+        >
+          <div class="overlay"></div>
+          <div class="breadcrumbs">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="#"><i class="bi bi-house"></i> Home</a>
+                  <span class="sp-2"> / </span>
+                </li>
+                <li class="breadcrumb-item active current">About</li>
+              </ol>
+            </nav>
+          </div>
 
-      <div
-        class="page-title"
-        style="
-          background-image: url('assets/img/flash/contact\ us.jpg');
-          background-size: cover;
-          background-position: center center;
-        "
-      >
-        <div class="overlay"></div>
-        <div class="breadcrumbs">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#"><i class="bi bi-house"></i> Home</a>
-                <span class="sp-2"> / </span>
-              </li>
-              <li class="breadcrumb-item active current">About</li>
-            </ol>
-          </nav>
-        </div>
-
-        <div class="title-wrapper">
-          <h1 class="text-white">About</h1>
-          <p class="text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
+          <div class="title-wrapper">
+            <h1 class="text-white">About</h1>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+          </div>
         </div>
       </div>
-
       <!-- End Page Title -->
       <!-- About Section -->
       <section id="about" class="about section">

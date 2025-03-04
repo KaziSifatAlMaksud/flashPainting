@@ -1638,9 +1638,9 @@ section,
 }
 
 .call-to-action-2 .cta-buttons .btn.btn-outline:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color: var(--contrast-color);
+  border-color: var(--nav-color);
+  color: var(--nav-color);
   /* transform: translateY(-2px); */
 }
 
