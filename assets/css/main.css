@@ -292,7 +292,6 @@ h6 {
 .hero .container {
   position: relative;
   z-index: 3;
-  margin: -100px 0px 0px 0px;
 }
 
 .hero h2 {
