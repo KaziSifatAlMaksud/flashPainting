@@ -263,7 +263,7 @@ h6 {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 80vh;
+  min-height: 95vh;
   position: relative;
   padding: 80px 0;
   display: flex;
@@ -357,119 +357,89 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
 }
 
-.header .top-row {
-  padding-bottom: 10px;
+.header .logo {
+  line-height: 1;
 }
 
-.header .top-row .logo {
-  text-decoration: none;
+.header .logo img {
+  max-height: 45px;
+  margin-right: 8px;
 }
 
-.header .top-row .logo img {
-  max-height: 40px;
-  margin-right: 10px;
-}
-
-.header .top-row .logo .sitename {
-  font-size: 32px;
-  font-weight: 400;
-  color: var(--heading-color);
-  font-family: var(--heading-font);
+.header .logo h1 {
+  font-size: 24px;
   margin: 0;
-}
-
-.header .top-row .logo span {
-  color: var(--accent-color);
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.header .social-links a {
+  font-weight: 600;
   color: var(--heading-color);
-  padding: 0 8px;
-  display: inline-block;
-  font-size: 18px;
-  transition: 0.3s;
 }
 
-.header .social-links a:hover {
+.header .logo span {
   color: var(--accent-color);
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 3px;
 }
 
-@media (max-width: 1200px) {
-  .header .social-links {
-    padding-right: 40px;
-  }
-}
-
-.header .search-form {
-  position: relative;
-  width: 250px;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-.header .search-form .form-control {
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 7px 40px 7px 15px;
-  background: transparent;
-  transition: 0.3s;
-  color: var(--default-color);
+.header .btn-getstarted,
+.header .btn-getstarted:focus {
+  color: var(--contrast-color);
+  background: var(--accent-color);
   font-size: 14px;
-}
-
-.header .search-form .form-control::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.header .search-form .form-control:focus {
-  border-color: var(--accent-color);
-  box-shadow: none;
-}
-
-.header .search-form button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 15px;
+  padding: 8px 26px;
   margin: 0;
-  color: var(--heading-color);
+  border-radius: 4px;
   transition: 0.3s;
 }
 
-.header .search-form button:hover {
-  color: var(--accent-color);
+.header .btn-getstarted:hover,
+.header .btn-getstarted:focus:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
 @media (max-width: 1200px) {
-  .header .search-form {
-    display: none;
+  .header .logo {
+    order: 1;
+  }
+
+  .header .btn-getstarted {
+    order: 2;
+    margin: 0 15px 0 0;
+    padding: 6px 20px;
+  }
+
+  .header .navmenu {
+    order: 3;
   }
 }
 
-.header .nav-wrap {
-  background-color: color-mix(in srgb, var(--default-color), transparent 96%);
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+.scrolled .header {
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
-.header .mobile-nav-toggle {
-  position: fixed;
-  top: 20px;
-  right: 5px;
+/* Index Page Header
+------------------------------*/
+.index-page .header {
+  --background-color: rgba(255, 255, 255, 0);
+  --heading-color: #ffffff;
+  --nav-color: rgba(255, 255, 255, 0.5);
+  --nav-hover-color: #ffffff;
+}
+
+/* Index Page Header on Scroll
+------------------------------*/
+.index-page.scrolled .header {
+  --background-color: #ffffff;
+  --heading-color: #32353a;
+  --nav-color: #3a3939;
+  --nav-hover-color: #e84545;
 }
 
 /*--------------------------------------------------------------
@@ -585,20 +555,12 @@ h6 {
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    background-color: color-mix(in srgb, var(--default-color) 10%, white 15%);
     color: var(--nav-color);
-    font-size: 24px;
+    font-size: 28px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;
-    padding: 5px;
-    border-radius: 4px;
-    transition: color 0.2s;
-  }
-
-  .mobile-nav-toggle:hover {
-    background-color: var(--accent-color);
-    color: var(--contrast-color);
+    transition: color 0.3s;
   }
 
   .navmenu {
@@ -738,7 +700,7 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  max-height: 120px;
   margin-right: 6px;
 }
 
