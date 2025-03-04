@@ -1589,7 +1589,7 @@ section,
 }
 
 .call-to-action-2 .cta-buttons .btn {
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 3rem;
   font-weight: 500;
   border-radius: 0.5rem;
   transition: all 0.3s ease;
@@ -1625,9 +1625,9 @@ section,
 }
 
 .herobutton .btn.btn-outline:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color: var(--contrast-color);
+  border-color: var(--nav-color);
+  color: var(--nav-color);
   /* transform: translateY(-2px); */
 }
 
