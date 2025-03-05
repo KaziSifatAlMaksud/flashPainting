@@ -53,9 +53,9 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html#hero" class="active">Home</a></li>
+            <li><a href="index.html#hero" >Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="index.html#services">Services</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -67,61 +67,52 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" /> -->
-        <video autoplay loop muted playsinline class="video-background">
-          <source src="assets/video/flash_painting.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+     
+      <!-- Page Title -->
+      <div>
+        <div
+          class="page-title py-5"
+          style="
+            background-image: url('assets/img/painting/houseidea_paint-1.jpg');
+            background-size: cover;
+            background-position: center top;
+            padding: 150px 0px !important;
+          "
+        >
+          <div class="overlay"></div>
+          <div class="breadcrumbs">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="#"><i class="bi bi-house"></i> Home</a>
+                  <span class="sp-2"> / </span>
+                </li>
+                <li class="breadcrumb-item active current">Services</li>
+              </ol>
+            </nav>
+          </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2
-                data-aos="fade-up"
-                data-aos-delay="100"
-                class="text-center w-100"
-                style="font-size: 50px"
-              >
-                We Work Closely With You To Bring <br />
-                Your Vision To Life
-              </h2>
-              <p
-                data-aos="fade-up"
-                data-aos-delay="200"
-                class="text-center"
-                style="font-size: 30px"
-              >
-                Customer satisfaction is our top priority
-              </p>
-            </div>
-            <div
-              class="col-lg-12 herobutton d-flex justify-content-center align-items-center gap-3 w-100"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <a href="#" class="btn btn-primary mt-4 py-1 px-5">Contact Us</a>
-              <a href="#" class="btn btn-outline mt-4 py-1 px-5"
-                >Our Services</a
-              >
-            </div>
+          <div class="title-wrapper">
+            <h1 class="text-white">Services</h1>
+            <!-- <p class="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p> -->
           </div>
         </div>
-      </section>
-      <!-- /Hero Section -->
+      </div>
+      <!-- End Page Title -->
 
 
 
       <!-- Features Section -->
       <section id="features" class="features section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Features</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+         <!-- Section Title -->
+         <div class="container section-title" data-aos="fade-up">
+          <h2>Choose Us</h2>
+          <div>
+            <span class="description-title">Why Choose Us</span>
+          </div>
         </div>
         <!-- End Section Title -->
 
@@ -193,17 +184,17 @@
             <div class="col-lg-6">
               <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
                 <div class="tab-pane fade active show" id="features-tab-1">
-                  <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid" />
+                  <img src="assets/img/featcher/office-1177468_1920.jpg" alt="" class="img-fluid" />
                 </div>
                 <!-- End Tab Content Item -->
 
                 <div class="tab-pane fade" id="features-tab-2">
-                  <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid" />
+                  <img src="assets/img/featcher/property maintanace.jpg" alt="" class="img-fluid" />
                 </div>
                 <!-- End Tab Content Item -->
 
                 <div class="tab-pane fade" id="features-tab-3">
-                  <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid" />
+                  <img src="assets/img/featcher/table.jpg" alt="" class="img-fluid" />
                 </div>
                 <!-- End Tab Content Item -->
               </div>
@@ -218,7 +209,7 @@
         <div class="container">
           <div class="row gy-4 justify-content-between features-item">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/features-1.jpg" class="img-fluid" alt="" />
+              <img src="assets/img/painting/istockphoto-182841059-612x612.jpg" class="img-fluid" alt="" />
             </div>
 
             <div
@@ -276,7 +267,30 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
+              <img src="assets/img/painting/interior-paint-contractors-painting-paintzen.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <!-- Features Item -->
+          <div class="row gy-4 justify-content-between features-item">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/painting/property maintanace.jpg" class="img-fluid" alt="" />
+            </div>
+
+            <div
+              class="col-lg-5 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Corporis temporibus maiores provident</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+                <a href="#" class="btn more-btn">Learn More</a>
+              </div>
             </div>
           </div>
           <!-- Features Item -->
@@ -479,170 +493,28 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <img src="assets/img/features-3.jpg" alt="" />
+              <img src="assets/img/painting/58357269.jpg" alt="" />
             </div>
           </div>
         </div>
       </section>
       <!-- /More Features Section -->
 
-      <!-- Pricing Section -->
-      <section id="pricing" class="pricing section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Pricing</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
+     
 
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pricing-item">
-                <h3>Free Plan</h3>
-                <p class="description">
-                  Ullam mollitia quasi nobis soluta in voluptatum et sint palora
-                  dex strater
-                </p>
-                <h4><sup>$</sup>0<span> / month</span></h4>
-                <a href="#" class="cta-btn">Start a free trial</a>
-                <p class="text-center small">No credit card required</p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Quam adipiscing vitae proin</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nec feugiat nisl pretium</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nulla at volutpat diam uteera</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Voluptate id voluptas qui sed aperiam rerum</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Iure nihil dolores recusandae odit voluptatibus</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End Pricing Item -->
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pricing-item featured">
-                <p class="popular">Popular</p>
-                <h3>Business Plan</h3>
-                <p class="description">
-                  Ullam mollitia quasi nobis soluta in voluptatum et sint palora
-                  dex strater
-                </p>
-                <h4><sup>$</sup>29<span> / month</span></h4>
-                <a href="#" class="cta-btn">Start a free trial</a>
-                <p class="text-center small">No credit card required</p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Quam adipiscing vitae proin</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nec feugiat nisl pretium</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nulla at volutpat diam uteera</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Voluptate id voluptas qui sed aperiam rerum</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Iure nihil dolores recusandae odit voluptatibus</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End Pricing Item -->
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pricing-item">
-                <h3>Developer Plan</h3>
-                <p class="description">
-                  Ullam mollitia quasi nobis soluta in voluptatum et sint palora
-                  dex strater
-                </p>
-                <h4><sup>$</sup>49<span> / month</span></h4>
-                <a href="#" class="cta-btn">Start a free trial</a>
-                <p class="text-center small">No credit card required</p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Quam adipiscing vitae proin</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nec feugiat nisl pretium</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nulla at volutpat diam uteera</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Voluptate id voluptas qui sed aperiam rerum</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Iure nihil dolores recusandae odit voluptatibus</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End Pricing Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Pricing Section -->
+     
 
       <!-- Faq Section -->
       <section id="faq" class="faq section">
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Frequently Asked Questions</h2>
+         <!-- Section Title -->
+         <div class="container section-title" data-aos="fade-up">
+          <h2>F&Q</h2>
+          <div>
+            <span class="description-title">Frequently Asked Questions</span>
+          </div>
         </div>
+        <!-- End Section Title -->
         <!-- End Section Title -->
 
         <div class="container">
@@ -754,13 +626,13 @@
 
       <!-- Testimonials Section -->
       <section id="testimonials" class="testimonials section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+       
+         <!-- Section Title -->
+         <div class="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+          <div>
+            <span class="description-title">Testimonials</span>
+          </div>
         </div>
         <!-- End Section Title -->
 
@@ -936,20 +808,6 @@
         </div>
       </section>
       <!-- /Testimonials Section -->
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-      <!-- /Call To Action Section -->
     </main>
 
     <footer id="footer" class="footer">
