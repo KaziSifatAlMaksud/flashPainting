@@ -1640,8 +1640,8 @@ section,
 
 
 .call-to-action-2 .cta-buttons .btn.btn-outline {
-  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 70%);
-  color: var(--accent-color);
+  border: 2px solid color-mix(in srgb, var(--contrast-color), transparent 70%);
+  color: var(--contrast-color);
 }
 
 .call-to-action-2 .cta-buttons .btn.btn-outline:hover {
