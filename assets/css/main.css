@@ -68,10 +68,10 @@
   --contrast-color: #ffffff;
 } */
 .dark-background {
-  --background-color: #0606068b;
+  --background-color: #06060600;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #25252500;
   --contrast-color: #ffffff;
 }
 
